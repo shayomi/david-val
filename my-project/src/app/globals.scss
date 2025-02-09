@@ -1,5 +1,3 @@
-@import "tailwindcss";
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -66,9 +64,19 @@ body {
 
 @layer base {
   * {
-    @apply border-border;
+    border-color: hsl(var(--border));
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-white text-black;
   }
+}
+
+.background-bg {
+  @apply bg-cover bg-center w-full flex;
+  background-color: #f8f6e7;
+  height: 100vh;
+}
+
+.background-bg {
+  background-image: url("../../public/images/bg2.png");
 }
