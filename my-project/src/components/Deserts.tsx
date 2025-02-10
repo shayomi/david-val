@@ -8,12 +8,12 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 
 const deserts = [
-  { id: 1, name: "Desert 1", image: "/images/des1.webp" },
-  { id: 2, name: "Desert 2", image: "/images/des2.webp" },
-  { id: 3, name: "Desert 3", image: "/images/des3.jpg" },
-  { id: 4, name: "Desert 4", image: "/images/des4.jpg" },
-  { id: 5, name: "Desert 5", image: "/images/des5.jpg" },
-  { id: 6, name: "Desert 6", image: "/images/des6.jpg" },
+  { id: 1, name: "Cookies", image: "/images/des1.webp" },
+  { id: 2, name: "Pancakes", image: "/images/des2.webp" },
+  { id: 3, name: "Fruits and yoghurt", image: "/images/des3.jpg" },
+  { id: 4, name: "Strawberry Pie", image: "/images/des4.jpg" },
+  { id: 5, name: "Chocolates", image: "/images/des5.jpg" },
+  { id: 6, name: "Butter Cakes", image: "/images/des6.jpg" },
 ];
 
 const Deserts = () => {

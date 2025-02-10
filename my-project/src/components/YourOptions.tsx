@@ -8,12 +8,12 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 
 const meals = [
-  { id: 1, name: "Meal 1", image: "/images/meal1.jpg" },
-  { id: 2, name: "Meal 2", image: "/images/meal2.jpg" },
-  { id: 3, name: "Meal 3", image: "/images/meal3.jpeg" },
-  { id: 4, name: "Meal 4", image: "/images/meal4.jpg" },
-  { id: 5, name: "Meal 5", image: "/images/meal5.jpg" },
-  { id: 6, name: "Meal 6", image: "/images/meal6.jpg" },
+  { id: 1, name: "Steak and mash", image: "/images/steak.jpg" },
+  { id: 2, name: "Vietnamese Food", image: "/images/viet.jpg" },
+  { id: 3, name: "Sea Food", image: "/images/seafood.jpg" },
+  { id: 4, name: "Burger King", image: "/images/burger.jpeg" },
+  { id: 5, name: "McDonalds", image: "/images/mcdonald.jpg" },
+  { id: 6, name: "African Meal", image: "/images/jollof.webp" },
 ];
 
 const YourOptions = () => {
