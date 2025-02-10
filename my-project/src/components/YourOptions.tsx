@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const meals = [
   { id: 1, name: "Steak and mash", image: "/images/steak.jpg" },
-  { id: 2, name: "Vietnamese Food", image: "/images/viet.jpg" },
+  { id: 2, name: "Chinese Food", image: "/images/viet.jpg" },
   { id: 3, name: "Sea Food", image: "/images/seafood.jpg" },
   { id: 4, name: "Burger King", image: "/images/burger.jpeg" },
   { id: 5, name: "McDonalds", image: "/images/mcdonald.jpg" },
